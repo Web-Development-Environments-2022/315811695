@@ -4,4 +4,87 @@
 	width: 100%;
 	height: 35px;
 	background: white;
+	
+}
+.warpper{
+	padding-top: 100px; 
+	margin: 0 auto ;
+	width: 90%;
+}
+*{ 
+	margin: 0;
+	padding: 0; 
+	margin: 0 auto;
+	
+}
+
+body{
+	background-color: #eee;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+ul{
+	margin-left: 70px;
+	
+}
+
+ul li{
+	list-style: none;
+	display:  inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+	
+}
+ul li a{
+	text-decoration: none;
+	font-size: 11;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	padding: 0 14px;
+	border-radius: 5;
+	display: block;
+	
+
+	
+}
+  ul li a:hover{
+	/* color: rgb(224, 11, 39); */
+	background: #70889a;
+	transition: .5s;
+
+} 
+
+h1{
+	text-align:  center;
+}
+/* p{
+
+	
+} */
+section{
+	align-items: center;
+	margin: 0 auto;
+}
+.about{
+	text-align: right;
+}
+
+ img.qrcode {
+    /* margin: 0 auto; */
+	width: 250px;
+    margin-left: 39%;
+}
+.photos{
+	width: 300px;
+	margin-right:  50px;
+}
+.video{
+	width: 70%;
+	margin-left: 24%;
+}
+.section{
+	width: 90%;
 }
