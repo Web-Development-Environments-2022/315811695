@@ -3,6 +3,16 @@
 <!--  -->
 <head>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://cdn.tiny.cloud/1/tmf19y9wwhtj8v408oq8n8sldcq4hw9rhjle1g21e442mav4/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>
+    tinymce.init({
+      selector: "#message",
+      plugins: "emoticons",
+      toolbar: "emoticons",
+      toolbar_location: "bottom",
+      menubar: false
+    });
+  </script>
 </head>
 
 <body>
@@ -121,14 +131,13 @@ On Web 3 we probably will get the current weather at our area and maybe also pre
 
       <section id="like" class="section">
 
-        give me a like
-  
-        <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=336586666351753&autoLogAppEvents=1" nonce="EaOZgyDX"></script>
-  <div class="fb-like" data-href="https://web-development-environments-2021.github.io/assignment1-adimarom96/#about" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+      
         <br />
         <br />
-        <br />
+        <div id="fb-root"> </div>
+        give me a like <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=336586666351753&autoLogAppEvents=1" nonce="aJqWUi5a"></script>
+<div class="fb-like" data-href="https://web-development-environments-2022.github.io/assignment1-adimarom96/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="false"></div>
+        
       </section>
 
     </section>
